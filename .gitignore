@@ -1,0 +1,51 @@
+# WordPress specific
+wp-config.php
+.htaccess
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backup-*
+
+# WordPress core
+# wordpress/
+# wp-admin/
+# wp-includes/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+sftp-config.json
+ftpquota
+*.sql
+*.tar.gz
+*.zip
+
+# IDE-specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Composer
+vendor/
+composer.lock
+
+# Node modules
+node_modules/
+npm-debug.log
+
+# Sass and Compass
+.sass-cache/
+*.css.map
+*.scssc
+
+# Other
+*.min.js
+*.map
