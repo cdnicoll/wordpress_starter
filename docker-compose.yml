@@ -8,8 +8,8 @@ services:
       - "8000:80"
     environment:
       WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_USER: exampleuser
-      WORDPRESS_DB_PASSWORD: examplepass
+      WORDPRESS_DB_USER: admin
+      WORDPRESS_DB_PASSWORD: admin
       WORDPRESS_DB_NAME: exampledb
     volumes:
       - ./wordpress:/var/www/html
@@ -21,8 +21,8 @@ services:
     platform: linux/amd64
     environment:
       MYSQL_DATABASE: exampledb
-      MYSQL_USER: exampleuser
-      MYSQL_PASSWORD: examplepass
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
       MYSQL_ROOT_PASSWORD: rootpass
     volumes:
       - db_data:/var/lib/mysql
